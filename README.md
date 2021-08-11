@@ -13,7 +13,9 @@ AUTO_INCREMENT
 ALSO U NEED TO CREATE CONNECTION CORRESPONDING TO YOUR DATABASE DETAILS IN  Connect()
 
 Here the name of my database was”stock” change it to your database name Then “root” is my user name , “root” is my password 
+
 Syntax-
+
 Con =DriverManager.getConnection(“jdbc:mysql://localhoset/YOUR_DATABASE_NAME”,”USER_NAME”,”PASSWORD”);
 
 THANKYOU FOR READING.
