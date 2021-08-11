@@ -5,6 +5,7 @@ Use these queries.
 mysql > create table product(id int, pname varchar(45) ,description varchar(45) ,barcode int, cprice int, rprice int, qty int ,rlevel int);
 
 mysql> create table vendor(id int,name varchar(45) , phone varchar(45) , email varchar(45) , address varchar(45));
+
 similarly create other tables
 
 NOT TO MENTION YOU NEED TO CREATE THE ID IN EVERY TABLE AS PRIMARY KEY AND
