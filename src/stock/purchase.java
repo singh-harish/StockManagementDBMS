@@ -48,7 +48,7 @@ public class purchase extends javax.swing.JFrame {
        
          try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/stock", "root", "root");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/stockmanagement", "root", "@dmin@nshul");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(product.class.getName()).log(Level.SEVERE,null,ex);
         } catch (SQLException ex) {

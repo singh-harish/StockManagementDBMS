@@ -453,4 +453,4 @@ public class vendor extends javax.swing.JFrame {
     private javax.swing.JTextField txtphone;
     private javax.swing.JTextField txtvendor;
     // End of variables declaration//GEN-END:variables
-
+}
